@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE qti>
+<qti app="QtiPlot" version="1.0.0-rc11" dpi="96" arch="Gnu64" script="muParser" windows="6" expand="1">
+	<window type="1" name="6particles1dimension" date="2459319.6260345" x="0" y="0" w="788" h="529">
+		<tab rows="30" cols="4" labels="0">
+			<col name="1" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="1;2;3;4;5;10;15;20;25;30;35;40;45;50;"/>
+			<col name="2" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="0.2;0.34;0.43;0.5;0.6;0.84;0.91;0.97;0.98;0.99;1;1;1;1;"/>
+			<col name="3" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="0.1;0.1;0.1;0.1;0.1;0.1;0.1;0.1;0.1;0.1;0.1;0.1;0.1;0.1;"/>
+			<col name="4" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="0.48;0.95;1.44;1.96;2.42;4.9;7.24;9.75;12.21;14.68;16.88;20.17;21.82;24.1;"/>
+		</tab>
+	</window>
+	<window type="3" name="Graph1" date="2459319.6271928" x="799" y="5" w="528" h="496" dpi="96">
+		<layout cw="520" ch="449" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" currentLayer="0" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<tab x="5" y="5" w="510" h="439" autoscale="0" maxMajorTicks="20" gap="1" scaleFont="1" dataMargins="1">
+			<page x="0.00961538" y="0.0111359" w="0.980769" h="0.977728"/>
+			<frame bg="#ffffff,0"/>
+			<canvas x="62" y="16" w="443" h="373" fixRatio="0" bg="#ffffff,0"/>
+			<grid xAxis="2" yAxis="0"/>
+			<curve type="0" z="21" table="6particles1dimension" x="1" y="2" from="0" to="-1" line="1" lc="#000000" lw="3" ls="0" brc="#000000" brs="0"/>
+			<curve type="0" z="22" table="6particles2dimensions" x="1" y="2" from="0" to="-1" line="1" lc="#ff0000" lw="3" ls="0" brc="#000000" brs="0"/>
+			<curve type="0" z="23" table="6particles1dimension" x="1" y="2" from="0" to="-1" line="1" lc="#008000" lw="3" ls="0" brc="#000000" brs="0"/>
+			<curve type="0" z="24" table="4particles1dimension" x="1" y="2" from="0" to="-1" line="1" lc="#0000ff" lw="3" ls="0" brc="#000000" brs="0"/>
+			<axis id="0" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="0" to="1" step="0" maj="6" min="4" type="0"/>
+				<ticks maj="3" majl="11" min="3" minl="6"/>
+				<title text="Success rate" color="#000000" font="Noto Sans,12.3315,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="101.203"/>
+				<labels space="4" font="Noto Sans,12.3315,-1,5,50,0,0,0,0,0" align="0"/>
+			</axis>
+			<axis id="1" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="0" to="1.2" step="0" maj="7" min="5" type="0"/>
+			</axis>
+			<axis id="2" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="0" to="60" step="0" maj="7" min="5" type="0"/>
+				<ticks maj="3" majl="11" min="3" minl="6"/>
+				<title text="Monte Carlo steps" color="#000000" font="Noto Sans,12.3315,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="148.375"/>
+				<labels space="4" font="Noto Sans,12.3315,-1,5,50,0,0,0,0,0" align="0"/>
+			</axis>
+			<axis id="3" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="0" to="60" step="0" maj="7" min="5" type="0"/>
+			</axis>
+			<item type="2" x="19.9547511312217" y="0.559139784946237" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Noto Sans,12.3315,-1,0,50,0,0,0,0,0" text="\l(4)4 particles, dim=1&#10;\l(1)6 particles, dim=1&#10;\l(2)6 particles, dim=2&#10;\l(3)6 particles, dim=3"/>
+		</tab>
+	</window>
+	<window type="3" name="Graph2" date="2459319.6277594" x="1329" y="6" w="522" h="495" active="1" dpi="96">
+		<layout cw="514" ch="448" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" currentLayer="0" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<tab x="6" y="4" w="495" h="439" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1" dataMargins="1">
+			<page x="0.0116732" y="0.00892857" w="0.963035" h="0.979911"/>
+			<frame bg="#ffffff,0"/>
+			<canvas x="57" y="15" w="434" h="373" fixRatio="0" bg="#ffffff,0"/>
+			<grid xAxis="2" yAxis="0"/>
+			<curve type="0" z="21" table="6particles1dimension" x="1" y="4" from="0" to="-1" line="1" lc="#000000" lw="3" ls="0" brc="#000000" brs="0"/>
+			<curve type="0" z="22" table="6particles2dimensions" x="1" y="4" from="0" to="-1" line="1" lc="#ff0000" lw="3" ls="0" brc="#000000" brs="0"/>
+			<curve type="0" z="23" table="6particles1dimension" x="1" y="4" from="0" to="-1" line="1" lc="#008000" lw="3" ls="0" brc="#000000" brs="0"/>
+			<curve type="0" z="24" table="4particles1dimension" x="1" y="4" from="0" to="-1" line="1" lc="#0000ff" lw="3" ls="0" brc="#000000" brs="0"/>
+			<axis id="0" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="0" to="30" step="0" maj="7" min="5" type="0"/>
+				<ticks maj="3" majl="9" min="3" minl="5"/>
+				<title text="Time (ms)" color="#000000" font="Noto Sans,12,-1,0,75,0,0,0,0,0" align="4" space="2" fmw="77.9219"/>
+				<labels space="4" font="Noto Sans,12,-1,0,50,0,0,0,0,0" align="0"/>
+			</axis>
+			<axis id="1" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="0" to="25" step="0" maj="6" min="5" type="0"/>
+			</axis>
+			<axis id="2" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="0" to="60" step="0" maj="7" min="5" type="0"/>
+				<ticks maj="3" majl="9" min="3" minl="5"/>
+				<title text="Monte-Carlo steps" color="#000000" font="Noto Sans,12,-1,0,75,0,0,0,0,0" align="4" space="2" fmw="145.406"/>
+				<labels space="4" font="Noto Sans,12,-1,0,50,0,0,0,0,0" align="0"/>
+			</axis>
+			<axis id="3" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="0" to="60" step="0" maj="7" min="5" type="0"/>
+			</axis>
+			<item type="2" x="1.38568129330254" y="23.3064516129032" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Noto Sans,10,-1,0,50,0,0,0,0,0" text="\l(4)4 particles, dim=1&#10;\l(1)6 particles, dim=1&#10;\l(2)6 particles, dim=2&#10;\l(3)6 particles, dim=3"/>
+		</tab>
+	</window>
+	<window type="1" name="4particles1dimension" date="2459319.6309379" x="7" y="565" w="856" h="485">
+		<tab rows="30" cols="4" labels="0">
+			<col name="1" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="1;2;3;4;5;6;7;8;9;"/>
+			<col name="2" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="0.65;0.838;0.934;0.952;0.978;0.991;0.997;0.998;1;"/>
+			<col name="3" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="0.041150291683152;0.041376963024959;0.041622170247138;0.041282184887678;0.041076581226662;0.041313986293972;0.040960076497868;0.041606071870774;0.040890856413171;"/>
+			<col name="4" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="0.237521464470774;0.472223478602246;0.715481486404315;0.954469323158264;1.20797482784837;1.45219074958004;1.69750328385271;1.95508153457195;2.19409906980582;"/>
+		</tab>
+	</window>
+	<window type="1" name="6particles2dimensions" date="2459319.6315009" x="832" y="591" w="830" h="479">
+		<tab rows="30" cols="4" labels="0">
+			<col name="1" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="1;2;3;4;5;10;15;20;25;30;35;40;45;50;"/>
+			<col name="2" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="0.2;0.33;0.46;0.54;0.57;0.82;0.93;0.97;0.99;1;1;1;1;1;"/>
+			<col name="3" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="0.1;0.1;0.1;0.1;0.1;0.1;0.1;0.1;0.1;0.1;0.1;0.11;0.1;0.1;"/>
+			<col name="4" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="0.45;0.92;1.4;1.91;2.38;4.79;7.27;9.77;12.32;14.69;17.08;20.27;21.68;25.29;"/>
+		</tab>
+	</window>
+	<window type="1" name="6particles3dimensions" date="2459319.6317545" x="1373" y="585" w="740" h="405">
+		<tab rows="30" cols="4" labels="0">
+			<col name="1" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="1;2;3;4;5;10;15;20;25;30;35;40;45;50;"/>
+			<col name="2" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="0.2;0.34;0.44;0.5;0.6;0.84;0.91;0.97;0.99;1;1;1;1;1;"/>
+			<col name="3" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="0.1;0.1;0.1;0.1;0.1;0.1;0.1;0.1;0.1;0.1;0.1;0.1;0.1;0.1;"/>
+			<col name="4" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="0.45;0.93;1.42;1.91;2.39;4.88;7.25;9.94;12.26;15.66;16.88;19.6;21.7;25.45;"/>
+		</tab>
+	</window>
+</qti>
